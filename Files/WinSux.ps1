@@ -3780,6 +3780,20 @@ powercfg /setdcvalueindex 99999999-9999-9999-9999-999999999999 54533251-82be-482
 powercfg /setacvalueindex 99999999-9999-9999-9999-999999999999 54533251-82be-4824-96c1-47b60b740d00 bc5038f7-23e0-4960-96da-33abaf5935ec 0x00000064 2>$null
 powercfg /setdcvalueindex 99999999-9999-9999-9999-999999999999 54533251-82be-4824-96c1-47b60b740d00 bc5038f7-23e0-4960-96da-33abaf5935ec 0x00000064 2>$null
 
+# processor performance core parking min cores unhide
+powercfg /attributes SUB_PROCESSOR CPMINCORES -ATTRIB_HIDE
+
+# processor performance core parking min cores 100%
+powercfg /setacvalueindex 99999999-9999-9999-9999-999999999999 SUB_PROCESSOR CPMINCORES 100
+powercfg /setdcvalueindex 99999999-9999-9999-9999-999999999999 SUB_PROCESSOR CPMINCORES 100
+
+# processor performance core parking max cores unhide
+powercfg /attributes SUB_PROCESSOR CPMAXCORES -ATTRIB_HIDE
+
+# processor performance core parking max cores 100%
+powercfg /setacvalueindex 99999999-9999-9999-9999-999999999999 SUB_PROCESSOR CPMAXCORES 100
+powercfg /setdcvalueindex 99999999-9999-9999-9999-999999999999 SUB_PROCESSOR CPMAXCORES 100
+
 # display
 # turn off display after 10 min - oled protection
 powercfg /setacvalueindex 99999999-9999-9999-9999-999999999999 7516b95f-f776-4464-8c53-06167f40cc99 3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e 600 2>$null
