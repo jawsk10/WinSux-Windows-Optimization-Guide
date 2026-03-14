@@ -20,3 +20,4 @@ iwr https://github.com/FR33THYFR33THY/WinSux-Windows-Optimization-Guide/raw/refs
 - 3/13/2025 Fixed compatibility issue with LTSC/IOT 2021/2024
 - 3/14/2025 Removed disable ulps (causes performance issues with HAGS on 9000 series AMD cards)
 - 3/14/2025 Fixed create recycle bin shortcut icon
+- 3/14/2025 added updated function run as trusted installer
