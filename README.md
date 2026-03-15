@@ -23,3 +23,4 @@ iwr https://github.com/FR33THYFR33THY/WinSux-Windows-Optimization-Guide/raw/refs
 - 3/14/2026 Added updated function run as trusted installer
 - 3/14/2026 Added processor performance core parking unhide/min/max cores 100%
 - 3/14/2026 Fixed compatibility issues with Windows Server 2022/2025
+- 3/15/2026 Fixed broken instagram scrolling issue with set appearance options

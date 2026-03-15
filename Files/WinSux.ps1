@@ -832,7 +832,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects]
 "VisualFXSetting"=dword:3
 
-; disable animate controls and elements inside windows
+; enable animate controls and elements inside windows (disabled breaks instagram scrolling)
 ; disable fade or slide menus into view
 ; disable fade or slide tooltips into view
 ; disable fade out menu items after clicking
@@ -841,7 +841,7 @@ Windows Registry Editor Version 5.00
 ; disable slide open combo boxes
 ; disable smooth-scroll list boxes
 [HKEY_CURRENT_USER\Control Panel\Desktop]
-"UserPreferencesMask"=hex(2):90,12,03,80,10,00,00,00
+"UserPreferencesMask"=hex(2):90,12,03,80,12,00,00,00
 
 ; disable animate windows when minimizing and maximizing
 [HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
