@@ -1753,14 +1753,6 @@ E0,F6,C5,D5,0E,CA,50,00,00
 
 
 
-; NVIDIA
-; disable nvidia tray icon
-[HKEY_CURRENT_USER\Software\NVIDIA Corporation\NvTray]
-"StartOnLogin"=dword:00000000
-
-
-
-
 ; --CAN'T DO NATIVELY--
 
 
@@ -1859,22 +1851,6 @@ E0,F6,C5,D5,0E,CA,50,00,00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter]
 "ActivationType"=dword:00000000
-
-
-
-
-; NVIDIA
-; enable old nvidia legacy sharpening
-; old location
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS]
-"EnableGR535"=dword:00000000
-
-; new location
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\nvlddmkm\Parameters\FTS]
-"EnableGR535"=dword:00000000
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\Parameters\FTS]
-"EnableGR535"=dword:00000000
 
 
 
