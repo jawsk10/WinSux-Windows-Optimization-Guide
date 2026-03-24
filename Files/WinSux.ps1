@@ -1859,10 +1859,6 @@ E0,F6,C5,D5,0E,CA,50,00,00
 
 
 ; POWER
-; enable allow usb overclock with secure boot regedit
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CI\Policy]
-"WHQLSettings"=dword:00000001
-
 ; unlock background polling rate cap
 [HKEY_CURRENT_USER\Control Panel\Mouse]
 "RawMouseThrottleEnabled"=dword:00000000
