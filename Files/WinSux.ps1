@@ -1829,28 +1829,28 @@ E0,F6,C5,D5,0E,CA,50,00,00
 
 ; disable ms-gamebar notifications with xbox controller plugged in
 [HKEY_CLASSES_ROOT\ms-gamebar]
+"(Default)"="URL:ms-gamebar"
 "URL Protocol"=""
 "NoOpenWith"=""
-@="URL:ms-gamebar"
 
 [HKEY_CLASSES_ROOT\ms-gamebar\shell\open\command]
-@="\"%SystemRoot%\\System32\\systray.exe\""
+"(Default)"="%SystemRoot%\\System32\\systray.exe"
 
 [HKEY_CLASSES_ROOT\ms-gamebarservices]
+"(Default)"="URL:ms-gamebarservices"
 "URL Protocol"=""
 "NoOpenWith"=""
-@="URL:ms-gamebarservices"
 
 [HKEY_CLASSES_ROOT\ms-gamebarservices\shell\open\command]
-@="\"%SystemRoot%\\System32\\systray.exe\""
+"(Default)"="%SystemRoot%\\System32\\systray.exe"
 
 [HKEY_CLASSES_ROOT\ms-gamingoverlay]
+"(Default)"="URL:ms-gamingoverlay"
 "URL Protocol"=""
 "NoOpenWith"=""
-@="URL:ms-gamingoverlay"
 
 [HKEY_CLASSES_ROOT\ms-gamingoverlay\shell\open\command]
-@="\"%SystemRoot%\\System32\\systray.exe\""
+"(Default)"="%SystemRoot%\\System32\\systray.exe"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter]
 "ActivationType"=dword:00000000
