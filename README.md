@@ -15,8 +15,10 @@ iwr https://github.com/FR33THYFR33THY/WinSux/raw/refs/heads/main/WinSux.ps1 -use
 - For DDU & Graphic scripts see
 [Ultimate](<https://github.com/FR33THYFR33THY/Ultimate>)
 
-# Guide
-[![Video](https://img.youtube.com/vi/JJvW9e4X7k0/maxresdefault.jpg)](https://youtu.be/JJvW9e4X7k0)
+# Guides
+[![WinSux](https://img.youtube.com/vi/JJvW9e4X7k0/maxresdefault.jpg)](https://youtu.be/JJvW9e4X7k0)
+
+[![WinSux Offline](https://img.youtube.com/vi/wHaI6EGdHpM/maxresdefault.jpg)](https://youtu.be/wHaI6EGdHpM)
 
 # Software
 ```
